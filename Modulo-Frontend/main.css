@@ -1,0 +1,52 @@
+:root{
+    --color-gris: #f5f5f5;
+    --color-rojo: red;
+    --color-azul: blue;
+    --color-negro: black;
+    --color-amarillo: yellow;
+    --line: 2px solid #c8c8c8;
+}
+body{
+    padding: 1rem;
+}
+
+.noticias{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .noticias-item{
+        border: var(--line);
+        border-radius: 10px;
+        background: var(--color-gris);
+        padding: 1.5rem;
+        margin: 0 0 1rem 0;
+        font-size: 2rem;
+        transition: .3s;
+        &:first-child{
+            font-weight: 600;
+        }
+        &:last-child{
+            font-style: italic;
+        }
+        &:hover{
+            background-color: var(--color-amarillo);
+            transform: scale(1.0125);
+            cursor: pointer;
+        }
+        span{
+            margin: 0 0 0 60px;
+            &:before{
+                content: "";
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-image: url("https://cdn-icons-png.flaticon.com/512/3429/3429149.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: absolute;
+            }
+        }
+    }
+}
+

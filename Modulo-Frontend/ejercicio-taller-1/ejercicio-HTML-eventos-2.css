@@ -1,0 +1,11 @@
+.container{
+    background-color: #027D01;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 0 0 1rem 0;
+}
+#item{
+    background-color: #F07D7D;
+    padding: 1rem 0;
+    border: 1px solid black;
+}

@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #B4C3E6;
+    width: auto;
+    min-height: 300px;
+    border-radius: 2rem;
+    border: 1px solid #142850;
+    padding: 1rem;
+    gap: 10px;
+}
+.dado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid #000;
+    background: #406EC3;
+    border-radius: 1rem;
+}
+.cara{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.esquina{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.centro{
+    display: flex;
+}
+.punto{
+    background: #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.dado-1 .cara{
+    justify-content: center;
+}
+.dado-2 .cara div:nth-child(1){
+    align-self: flex-start;
+}
+.dado-2 .cara div:nth-child(2){
+    align-self: flex-end;
+}
+.dado-3 .cara div:nth-child(1){
+    align-self: flex-start;
+}
+.dado-3 .cara div:nth-child(3){
+    align-self: flex-end;
+}

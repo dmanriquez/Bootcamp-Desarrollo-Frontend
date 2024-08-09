@@ -1,0 +1,42 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculadora.js",
+  "scripts": {
+    "calculadora": "ts-node calculadora.ts",
+    "clase1": "ts-node ejercicios-clase-1.ts",
+    "clase2": "ts-node ejercicios-clase-2.ts",
+    "clase3": "ts-node ejercicios-clase-3.ts",
+    "clase4": "ts-node ejercicios-clase-4.ts",
+    "clase5": "ts-node ejercicios-clase-5.ts",
+    "clase6": "ts-node ejercicios-clase-6.ts",
+    "clase7": "ts-node ejercicios-clase-7.ts",
+    "clase8": "ts-node ejercicios-clase-8.ts",
+    "clase9": "ts-node ejercicios-clase-9.ts",
+    "clase10": "ts-node ejercicios-clase-10.ts",
+    "clase11": "ts-node ejercicios-clase-11.ts",
+    "casa1": "ts-node ejercicios-casa-1.ts",
+    "ejercicios-propuestos-1": "ts-node ejercicios-propuestos-1.ts",
+    "ejercicios-propuestos-2": "ts-node ejercicios-propuestos-2.ts",
+    "ejercicios-propuestos-3": "ts-node ejercicios-propuestos-3.ts",
+    "ejercicios-propuestos-4": "ts-node ejercicios-propuestos-4.ts",
+    "testing": "ts-node testing.ts",
+    "prepara-lab1": "ts-node guia-preparacion-lab1.ts",
+    "prepara-lab2": "ts-node guia-preparacion-lab2.ts",
+    "prepara-lab3": "ts-node guia-preparacion-lab3.ts",
+    "lab1": "ts-node laboratorio-1.ts",
+    "lab2-p1": "ts-node laboratorio-2-P1.ts",
+    "lab2-p1-modulo": "ts-node P1-acceso.ts",
+    "lab2-p2": "ts-node laboratorio-2-P2.ts",
+    "lab3-prueba": "ts-node lab3/prueba.ts",
+    "funciones": "ts-node funciones.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
