@@ -1,2 +1,2 @@
-Modulo-Typescript/node_modules/*
-.DS_Store
+Modulo-Typescript/node_modules
+**/.DS_Store
